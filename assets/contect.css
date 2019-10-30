@@ -1,0 +1,152 @@
+/*特效*/
+.demo {	
+	transition : 0.5s;
+}
+.demo{
+	opacity :1;
+}
+.demo:hover {
+	opacity : 1;
+	transform : scale(1.2);
+}
+
+@keyframes  swing  {
+	15% { transform:  translateX(5px); }
+	40% { transform:  translateX(-5px); }
+	65% { transform:  translateX(2px); }
+	85% { transform:  translateX(-2px); }
+	100% { transform:  translateX(0px); }
+}
+	
+.demo2{
+	transition : 0.5s;
+}
+
+.demo2:hover {
+	animation : swing 1s 1;
+}
+
+/*標頭*/
+body{
+ 	margin:0px;
+ 	padding: 0px;
+ }
+.a
+{
+ position: absolute;
+ left:800px;
+}
+.b{
+	position:absolute;
+	top:320px;
+	padding-left: 230px;
+}
+.c{
+	background-color: #FFF0DA;
+	position: absolute;
+	top:300px;
+	width:1920px;
+	height: 250px;
+}
+/*表格內文*/
+table
+{
+	position: absolute;
+	top:650px;
+	left: 550px;
+	border:10px #82BBB5 double;
+	padding-right:60px;
+	padding-bottom:50px;
+	
+}
+.wel
+{
+	font-family:fantasy;
+	font-size: 60px;
+	color:white;
+	text-shadow: #82BBB5 4px 0px 1px;
+	padding:50px;
+	
+}
+.cap
+{
+	font-size: 20px;
+	font-family: "微軟正黑體";
+	text-shadow: #82BBB5 3px -1px 1px;
+	color:white;
+	font-weight: bold;
+	padding:30px;
+	
+	
+}
+.button{
+	background-color:#82BBB5;
+	position: absolute;
+	top:1300px;
+	left:900px;
+	font-size: 20px;
+	font-family: "微軟正黑體";
+	color:white;
+	font-weight: bold;
+}
+/*頁尾*/
+.footer-color
+{
+	background-color: #8B4513;
+	position: absolute;
+	top:1750px;
+	width:1920px;
+	height: 200px;
+
+
+}
+.footer-ig
+{
+	position: absolute;
+	top:1800px;
+	left:250px;
+}
+.footer-fb
+{
+	position: absolute;
+	top:1800px;
+	left:700px;
+}
+.footer-logo
+{
+	position: absolute;
+	top:1760px;
+	left:1250px;
+}
+.textig
+{
+	position: absolute;
+	top:1840px;
+	left: 400px;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+}
+.textfb
+{
+	position:absolute;
+	top:1840px;
+	left:850px; 
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+}
+.textlogo
+{
+	position: absolute;
+	top:1840px;
+	left:1450px;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+}
+
+
