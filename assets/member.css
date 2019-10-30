@@ -1,0 +1,184 @@
+/*特效*/
+.demo {	
+	transition : 0.5s;
+}
+.demo{
+	opacity :1;
+}
+.demo:hover {
+	opacity : 1;
+	transform : scale(1.2);
+}
+
+@keyframes  swing  {
+	15% { transform:  translateX(5px); }
+	40% { transform:  translateX(-5px); }
+	65% { transform:  translateX(2px); }
+	85% { transform:  translateX(-2px); }
+	100% { transform:  translateX(0px); }
+}
+	
+.demo2{
+	transition : 0.5s;
+}
+
+.demo2:hover {
+	animation : swing 1s 1;
+}
+
+
+/*標頭*/
+body{
+	margin:0;
+}
+
+.a
+{
+ position: absolute;
+ left:800px;
+}
+
+.b{
+	position:absolute;
+	top:320px;
+	padding-left: 230px;
+}
+.c{
+	background-color: #FCD3D1;
+	position: absolute;
+	top:300px;
+	width:1920px;
+	height: 250px;
+}
+/*自介紹片&文字*/
+
+.img-member1{
+	position: absolute;
+	top:580px;
+	left:150px;
+}
+.img-member2{
+	position: absolute;
+	top:840px;
+	left:1455px;
+}
+.img-member3{
+	position: absolute;
+	top:1130px;
+	left:150px;
+}
+.img-member4{
+	position: absolute;
+	top:1420px;
+	left:1455px;
+}
+.text-member1{
+	position: absolute;
+	top: 580px;
+	left:550px;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	line-height: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.text-member2{
+	position: absolute;
+	top: 850px;
+	left: 490px;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	color: white;
+	line-height: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.text-member3{
+	position: absolute;
+	top: 1150px;
+	left:520px;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	color: white;
+	line-height: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+.text-member4{
+	position: absolute;
+	top: 1450px;
+	left:450px;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	color: white;
+	line-height: 30px;
+	letter-spacing: 5px;
+	text-align: center;
+}
+
+/*頁尾*/
+.footer-color
+{
+	background-color: #3C405B;
+	position: absolute;
+	top:1750px;
+	width:1920px;
+	height: 200px;
+
+}
+.footer-ig
+{
+	position: absolute;
+	top:1800px;
+	left:250px;
+}
+.footer-fb
+{
+	position: absolute;
+	top:1800px;
+	left:700px;
+}
+.footer-logo
+{
+	position: absolute;
+	top:1760px;
+	left:1250px;
+}
+.textig
+{
+	position: absolute;
+	top:1840px;
+	left: 400px;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+}
+.textfb
+{
+	position:absolute;
+	top:1840px;
+	left:850px; 
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+}
+.textlogo
+{
+	position: absolute;
+	top:1840px;
+	left:1450px;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+}
