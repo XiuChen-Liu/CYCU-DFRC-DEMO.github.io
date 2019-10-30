@@ -1,0 +1,161 @@
+/*特效*/
+.demo {	
+	transition : 0.5s;
+}
+.demo{
+	opacity :1;
+}
+.demo:hover {
+	opacity : 1;
+	transform : scale(1.2);
+}
+@keyframes  swing  {
+	15% { transform:  translateX(5px); }
+	40% { transform:  translateX(-5px); }
+	65% { transform:  translateX(2px); }
+	85% { transform:  translateX(-2px); }
+	100% { transform:  translateX(0px); }
+}
+	
+.demo2{
+	transition : 0.5s;
+}
+
+.demo2:hover {
+	animation : swing 1s 1;
+}
+/*標頭*/
+body{
+	margin:0;
+}
+
+.a
+{
+ position: absolute;
+ left:800px;
+}
+
+.b{
+	position:absolute;
+	top:320px;
+	padding-left: 230px;
+}
+.c{
+	background-color: #FCD3D1;
+	position: absolute;
+	top:300px;
+	width:1920px;
+	height: 250px;
+}
+
+/*合照、影片*/
+.iframe
+{
+	position: absolute;
+	left:680px;
+	top:650px;
+}
+.D{
+	position: absolute;
+	top:800px;
+	left: 140px;
+}
+.F{
+	position: absolute;
+	top:600px;
+	left:350px;
+}
+.R{
+	position: absolute;
+	top:800px;
+	left:1350px;
+}
+.C{
+	position: absolute;
+	top:600px;
+	left:1600px;
+}
+
+table{
+	border:2px dashed;
+	height: 300px;
+}
+.img-together
+{
+	position: absolute;
+	top:1200px;
+	left:280px;
+}
+
+
+
+/*頁尾*/
+.text1
+{
+	font-family:"微軟正黑體";
+	font-weight: bolder;
+	font-size: 25px;
+	color: white; 
+	text-align: center;
+	line-height: 50px;
+	position: relative;
+	left:850px;
+	top:1235px;
+}
+.footer-color
+{
+	background-color: #3C405B;
+	position: absolute;
+	top:1750px;
+	width:1920px;
+	height: 200px;
+
+}
+.footer-ig
+{
+	position: absolute;
+	top:1800px;
+	left:250px;
+}
+.footer-fb
+{
+	position: absolute;
+	top:1800px;
+	left:700px;
+}
+.footer-logo
+{
+	position: absolute;
+	top:1760px;
+	left:1250px;
+}
+.textig
+{
+	position: absolute;
+	top:1840px;
+	left: 400px;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+}
+.textfb
+{
+	position:absolute;
+	top:1840px;
+	left:850px; 
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+}
+.textlogo
+{
+	position: absolute;
+	top:1840px;
+	left:1450px;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	font-weight: bold;
+	color:white;
+}
